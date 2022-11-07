@@ -1,11 +1,4 @@
-# Senior Data Enginer Tech Challenge
----
-This test is split into 5 sections:
-1. Data Pipelines
-2. Databases 
-3. System Design
-4. Charts & APIs
-5. Machine Learning
+# Senior Data Engineer Tech Challenge
 
 ---
 ## Section1: Data Pipelines
@@ -19,8 +12,8 @@ The script is supposed to run in the foresaid created environment.
 
 Processed files are saved under corresponding folder with naming convention provided below:
 
-./Successful_application/Successful_application_YYYY_MM_DD_hh_mm_ss.csv
-./Unsuccessful_application/Unsuccessful_application_YYYY_MM_DD_hh_mm_ss.csv
+../Successful_application/Successful_application_YYYY_MM_DD_hh_mm_ss.csv
+../Unsuccessful_application/Unsuccessful_application_YYYY_MM_DD_hh_mm_ss.csv
 
 Cron job is set as per below [onetime setup] which runs every one hour on daily basis.
 
