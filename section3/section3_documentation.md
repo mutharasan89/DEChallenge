@@ -25,7 +25,7 @@ When a table is created, it is assigned an owner. The initial state is that only
 ## Section 3: System Design 2
 
 ---
-Solution is provided assuming, we are going to leverage on Azure cloud services. Kindly refer to Untitled Diagram.drawio for the data flow architecture.
+Solution is provided assuming, we are going to leverage on Azure cloud services. Kindly refer to Untitled Diagram.drawio [Untitled Diagram.png ] for the data flow architecture.
 
 ### Real time data stream Processing
 Images file from streaming sources are consumed by Apache Spark [Azure event hub] and AKS provides a managed environment for the Apache Spark jobs.
